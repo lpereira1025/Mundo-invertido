@@ -1,0 +1,34 @@
+#section-stranger-things-trailer .section-texts {
+  width: 100%;
+  text-align: right;
+}
+
+#section-stranger-things-trailer .section-texts h2 {
+  max-width: 425px;
+  display: inline-block;
+}
+
+#section-stranger-things-trailer .video-frame {
+  background-color: var(--primary-color);
+}
+#section-stranger-things-trailer .video-frame iframe {
+  position: relative;
+  bottom: 24px;
+  left: 24px;
+  border: 2px solid;
+  border-image: linear-gradient(
+    var(--primary-color),
+    var(--primary-color-contrast)
+  );
+  border-image-slice: 10;
+  max-width: 90vw;
+}
+
+@media (min-width: 768px) {
+  #section-stranger-things-trailer .video-frame iframe {
+    max-width: 45vw;
+  }
+  #section-stranger-things-trailer .section-texts {
+    width: 50%;
+  }
+}

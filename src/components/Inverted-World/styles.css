@@ -1,0 +1,15 @@
+.container {
+  max-width: 90%;
+}
+
+#section-inverted-world {
+  align-items: center;
+}
+
+#section-inverted-world .section-texts {
+  width: 50%;
+}
+
+#section-inverted-world .section-texts h2 {
+  max-width: 300px;
+}
